@@ -20,7 +20,7 @@ body {
   color: red;
 }
 
-/* Global Footer */
+/* Footer */
 
 .footerDiv {
   position: relative;
@@ -40,9 +40,21 @@ footer {
   margin-top: 2%;
 }
 
-/* Index Container */
+/* Column Items*/
+
 .colItem {
   margin: 50px;
+  background-color: #EAE8FF;
+  border: solid;
+  border-style: double;
+  border-width: 10px;
+  border-color: #2D3142;
+  color: black;
+}
+
+.colItem1 {
+  margin: 10px;
+  padding: 15px;
   background-color: #EAE8FF;
   border: solid;
   border-style: double;
