@@ -14,21 +14,79 @@ a:hover {
   color: blue;
 }
 
+a:visited {
+  color: blue;
+}
+
 /* Main container */
 
 .mainContainer {
+  display: flex;
   position: relative;
   height: auto;
+  justify-content: space-evenly;
 }
 
+.mainItem1 {
+  width: 50%;
+  margin: 20px;
+  margin-top: 60px;
+  padding: 20px;
+  align-content: center;
+  background-color: #EAE8FF;
+  border: solid;
+  border-style: double;
+  border-width: 10px;
+  border-color: #2D3142;
+  color: black;
+}
+
+.mainItem2 {
+  width: 50%;
+  margin: 20px;
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #EAE8FF;
+  border: solid;
+  border-style: double;
+  border-width: 10px;
+  border-color: #2D3142;
+  color: black;
+}
+
+/* Section container */
+.sectionContainer {
+  display: flex;
+  position: relative;
+  height: auto;
+  justify-content: center;
+}
+
+.sectionItem1 {
+  width: 80%;
+  padding: 80px;
+  bottom: 0;
+  background-color: #EAE8FF;
+  border: solid;
+  border-style: double;
+  border-width: 10px;
+  border-color: #2D3142;
+  color: black;
+}
+
+.imgSize {
+  width: 200px;
+  height: 400px;
+}
 
 /* Footer */
 
 .footerContainer {
   display: flex;
   flex-wrap: wrap;
-  height: 50px;
+  height: 25px;
   text-align: center;
+  /* margin-top: 100%; */
 }
 
 .footerItem {
