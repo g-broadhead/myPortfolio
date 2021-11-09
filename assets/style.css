@@ -10,6 +10,10 @@ body {
   color: #EAE8FF;
 }
 
+a:hover {
+  color: blue;
+}
+
 /* Main container */
 
 .mainContainer {
@@ -23,12 +27,12 @@ body {
 .footerContainer {
   display: flex;
   flex-wrap: wrap;
-  height: auto;
+  height: 50px;
   text-align: center;
 }
 
 .footerItem {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #2D3142;
