@@ -17,7 +17,7 @@ body {
 }
 
 .nav-link:visited {
-  color: blue;
+  color: red;
 }
 
 /* Global Footer */
@@ -30,6 +30,7 @@ body {
 
 footer {
   position: absolute;
+  bottom: 0;
   background-color: #2D3142;
   color: #EAE8FF;
   width: 100%;
