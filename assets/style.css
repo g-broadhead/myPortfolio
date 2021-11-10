@@ -2,6 +2,7 @@
 
 body {
   background-color: #B0D7FF;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 /* Gloabal Navigation */
@@ -16,9 +17,9 @@ body {
   color: blue;
 }
 
-.nav-link:visited {
-  color: red;
-}
+/* .nav-link:visited {
+  color: red !important;
+} */
 
 /* Footer */
 
@@ -61,4 +62,14 @@ footer {
   border-width: 10px;
   border-color: #2D3142;
   color: black;
+}
+
+/* Image Adjustment Carousel */
+
+.imgAdjust {
+  max-height: 600px;
+}
+
+.textStyling {
+  font-family: 'Nanum Gothic', sans-serif;
 }
